@@ -8,6 +8,7 @@ Nosso software tem como objetivo ajudar os microempreendedores a controlar seu f
 * Talisson Augusto Prudêncio Santos
 * Sabrina Ferreira Vieira
 * Christian Nathan Lima Signoretti
+* João Victor Pinheiro de Vasconcelos
 
 ## Professores responsáveis
 
