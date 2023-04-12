@@ -8,12 +8,12 @@
 Engenharia de Software
 
 ## Participantes
-Os membros do grupo são: 
+Os membros do grupo são: <br>
 Pedro Henrique Braga de Castro <br>
-Talisson Augusto Prudêncio Santos \n
-Sabrina Ferreira Vieira
-Christian Nathan Lima Signoretti
-João Victor Pinheiro de Vasconcelos
+Talisson Augusto Prudêncio Santos <br>
+Sabrina Ferreira Vieira <br>
+Christian Nathan Lima Signoretti <br>
+João Victor Pinheiro de Vasconcelos <br>
 
 # Estrutura do Documento
 
@@ -54,6 +54,7 @@ João Victor Pinheiro de Vasconcelos
 
 ## Problema
 
+Atualmente, os microempreendedores sofrem com a inconstância do mercado financeiro, pois o fluxo de clientes varia muito durante o ano e as taxas de impostos tornam-se cada vez mais crescentes. Em consonância, existe uma alta competitividade no mercado, o que exige marketing adequado e a cima de tudo, um excelente controle financeiro. Diante desse cenário, torna-se importante controlar o fluxo de caixa e o estoque para que o microempreendedor consiga alcançar suas metas mensais e manter o seu negócio. 
 
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
@@ -74,7 +75,7 @@ João Victor Pinheiro de Vasconcelos
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nossa aplicação tem por objetivo não só de ajudar o microempreendedor a controlar o fluxo de caixa e o estoque, mas também a criar metas mensais e montar cronogramas de organização.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -87,7 +88,7 @@ João Victor Pinheiro de Vasconcelos
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+É importante controlar o fluxo de caixa e o estoque porque diversas microempresas já fecharam no Brasil, devido a falta de clientes e o excesso de estoques. Também, diversos negócios sofrem com a variação dos impostos, sendo necessário fazer análises do que comprar e de quanto comprar. Por isso, é motivador ajudar esse grupo a ter um maior controle sobre esses aspectos, afim de que seja possível render seu negócio. 
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -103,7 +104,9 @@ João Victor Pinheiro de Vasconcelos
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1) Microempreendedor de loja física: dono de uma loja física, que apresenta um imóvel alugado, paga altas taxas de impostos, mantém o estoque junto da loja física e possui funcionários.
+2) Microempreendedor de loja virtual: apresenta somente instagram ou whatsapp como divulgação da loja, o estoque é em sua própria casa e não possui funcionários.
+3) Microempreendedor de loja física e virtual: apresenta divulgação em loja virtual e uma loja física, imóvel alugado que serve de estoque e loja física, possui funcionários, faz lives no instagram para divulgação e marketing de seu negócio.  
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
