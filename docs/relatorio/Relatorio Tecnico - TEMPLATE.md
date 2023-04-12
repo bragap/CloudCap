@@ -5,15 +5,14 @@
 
 `CURSO` 
 
-Engenharia de Software
+ - Engenharia de Software
 
 ## Participantes
-Os membros do grupo são: <br>
-Pedro Henrique Braga de Castro <br>
-Talisson Augusto Prudêncio Santos <br>
-Sabrina Ferreira Vieira <br>
-Christian Nathan Lima Signoretti <br>
-João Victor Pinheiro de Vasconcelos <br>
+ - Pedro Henrique Braga de Castro <br>
+ - Talisson Augusto Prudêncio Santos <br>
+ - Sabrina Ferreira Vieira <br>
+ - Christian Nathan Lima Signoretti <br>
+ - João Victor Pinheiro de Vasconcelos <br>
 
 # Estrutura do Documento
 
