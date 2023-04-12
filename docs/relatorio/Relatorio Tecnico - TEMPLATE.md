@@ -9,8 +9,8 @@ Engenharia de Software
 
 ## Participantes
 Os membros do grupo são: 
-Pedro Henrique Braga de Castro
-Talisson Augusto Prudêncio Santos
+Pedro Henrique Braga de Castro <br>
+Talisson Augusto Prudêncio Santos \n
 Sabrina Ferreira Vieira
 Christian Nathan Lima Signoretti
 João Victor Pinheiro de Vasconcelos
