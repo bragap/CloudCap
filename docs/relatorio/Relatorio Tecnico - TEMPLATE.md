@@ -8,13 +8,12 @@
 Engenharia de Software
 
 ## Participantes
->
-> Os membros do grupo são: 
-> Pedro Henrique Braga de Castro
-> Talisson Augusto Prudêncio Santos
-> Sabrina Ferreira Vieira
-> Christian Nathan Lima Signoretti
-> João Victor Pinheiro de Vasconcelos
+Os membros do grupo são: 
+Pedro Henrique Braga de Castro
+Talisson Augusto Prudêncio Santos
+Sabrina Ferreira Vieira
+Christian Nathan Lima Signoretti
+João Victor Pinheiro de Vasconcelos
 
 # Estrutura do Documento
 
