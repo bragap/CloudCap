@@ -5,17 +5,16 @@
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Engenharia de Software
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> Pedro Henrique Braga de Castro
+> Talisson Augusto Prudêncio Santos
+> Sabrina Ferreira Vieira
+> Christian Nathan Lima Signoretti
+> João Victor Pinheiro de Vasconcelos
 
 # Estrutura do Documento
 
@@ -56,7 +55,7 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
