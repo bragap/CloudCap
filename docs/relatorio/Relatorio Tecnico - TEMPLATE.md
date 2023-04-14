@@ -107,20 +107,6 @@ Nossa aplicação tem por objetivo não só de ajudar o microempreendedor a cont
 2) Microempreendedor de loja virtual: apresenta somente instagram ou whatsapp como divulgação da loja, o estoque é em sua própria casa e não possui funcionários.
 3) Microempreendedor de loja física e virtual: apresenta divulgação em loja virtual e uma loja física, imóvel alugado que serve de estoque e loja física, possui funcionários, faz lives no instagram para divulgação e marketing de seu negócio.  
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
@@ -132,34 +118,30 @@ Nossa aplicação tem por objetivo não só de ajudar o microempreendedor a cont
 
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Primeira Persona
 
+Carlinho possui uma loja de camisetas de times de futebol, com vendas somente online.
+![Carlinho](images/CarlinhoPersona.png)
 
-> Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
-> mapas da proposta de valor. Lembre-se que você deve ser enumerar e descrever precisamente 
-> e de forma personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
->
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
+Os maiores problemas de Carlinho são: Dificuldade em atrair clientes e Concorrência do meio fisico e online.
+![Carlinho2](images/CarlinhoProposta.png)
+
+### Segunda Persona
+
+Jojo possui uma doceria localizada no centro de sua cidade.
+![Jojo](images/JojoPersona.png)
+
+Os maiores problemas de Jojo são: Má gestão de tempo pessoal e Precificação dos produtos.
+![Jojo2](images/JojoProposta.png)
+
+### Terceira Persona
+
+Ana possui loja física e virtual que vende semijoias.
+![Ana](images/AnaPersona.png)
+
+Os maiores problemas de Ana são: Alto valor de impostas e Poucas vendas em meio físico.
+![Ana2](images/AnaPropostadeValor.png)
+
 
 
 ## Histórias de Usuários
