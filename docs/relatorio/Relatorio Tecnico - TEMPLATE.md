@@ -129,7 +129,7 @@ Os maiores problemas de Carlinho são: Dificuldade em atrair clientes e Concorr�
 ### Segunda Persona
 
 Jojo possui uma doceria localizada no centro de sua cidade.
-![Jojo](images/JojoPersona.png)
+![Jojo](images/JojoCorreto2.png)
 
 Os maiores problemas de Jojo são: Má gestão de tempo pessoal e Precificação dos produtos.
 ![Jojo2](images/JojoProposta.png)
