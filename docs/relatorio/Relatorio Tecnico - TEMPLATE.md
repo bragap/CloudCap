@@ -1,7 +1,8 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Fly : Gestão Financeira
+##### Com a Fly, suas finanças decolam rumo ao futuro
 
 `CURSO` 
 
@@ -146,23 +147,17 @@ Os maiores problemas de Ana são: Alto valor de impostas e Poucas vendas em meio
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|      EU COMO       |            QUERO/PRECISO           |                 PARA                   |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Registrar minhas metas mensais     |Focar nos meus objetivos                |
+|Administrador       | Controlar o fluxo de caixa         |Controlar os gastos e ganhos            |
+|Gerenciador         | Organizar meu estoque              |Realizar reposições corretamente        |
+|Usuário do sistema  | Receber alertas e mensagens        |Manter atualizado sobre o negócio       |
+|Vendedor            | Calculadora de Juros               |Informar sobre os preços do mercado     |
+|Aprendiz            | Educação Financeira                |Realizar futuros investimentos          |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -172,8 +167,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre metas mensais | ALTA | 
+|RF-002| Realizar atualizações de estoque  | ALTA |
+|RF-003| Emitir alertas e mensagens | ALTA |
+|RF-004| Informações sobre educação financeira | MÉDIA |
+|RF-005| Realizar calculos financeiros | BAIXA |
+|RF-006| Comunicação com Fóruns e Comunidades | MÉDIA |
+|RF-007| Realizar orçamento e planejamento financeiro | ALTA |
 
 
 ### Requisitos não Funcionais
