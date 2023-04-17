@@ -2,7 +2,7 @@
 `TÍTULO DO PROJETO`  
 
 ### Fly
-##### Com a Fly, suas finanças decolam rumo ao futuro
+##### Suas finanças decolam rumo ao futuro
 
 `CURSO` 
 
@@ -58,20 +58,11 @@ Atualmente, os microempreendedores sofrem com a inconstância do mercado finance
 
 ## Objetivos
 
-Nossa aplicação tem por objetivo auxiliar o microemprendedor a administrar as financias de sua loja, não só ajudando a controlar o fluxo de caixa e o estoque, mas também a criar metas mensais e montar cronogramas de organização.
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O principal objetivo é nortear as decisões da empresa para viabilizar o fortalecimento da organização e proporcionar um crescimento efetivo.Portanto, nossa aplicação tem por objetivo auxiliar o microemprendedor a administrar as financias de sua loja, não só ajudando a controlar o fluxo de caixa e o estoque, mas também a criar metas mensais e montar cronogramas de organização.
 
 ## Justificativa
 
-É importante controlar o fluxo de caixa e o estoque porque diversas microempresas já fecharam no Brasil, devido a falta de clientes e o excesso de estoques. Também, diversos negócios sofrem com a variação dos impostos, sendo necessário fazer análises do que comprar e de quanto comprar. Por isso, é de suma importância proporcionar ajuda a esse grupo, fazendo com que tenham maior controle sobre esses aspectos, afim de que seja possível render seu negócio. 
+É importante controlar o fluxo de caixa e o estoque porque diversas microempresas já fecharam no Brasil, devido a falta de clientes e o excesso de estoques. Também, diversos negócios sofrem com a variação dos impostos, sendo necessário fazer análises do que comprar e de quanto comprar. Por isso, é de suma importância proporcionar ajuda a esse grupo, fazendo com que tenham maior controle sobre esses aspectos, afim de que seja possível fortalecer seu negócio. 
 
 ## Público-Alvo
 
@@ -82,11 +73,8 @@ Nossa aplicação tem por objetivo auxiliar o microemprendedor a administrar as 
  
 # Especificações do Projeto
 
-----TEXTO AQUI----
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Essa parte será a identificação correta do problema. Com isso nós utilizamos a Matriz de Alinhamento CSD para criar perguntas e conseguimos realizar entrevistas qualitativas, montar nossas personas e entender melhor qual era o obstáculo de cada uma, como isso afetava suas vidas e como poderíamos ajudar. Com a criação das Propostas de Valor  realmente entendemos as dores que o impedimento causava na persona e criamos as Histórias de Usuário. Com isso, foi possível identificar os Requisítos necessários para criarmos nosso Wireframe e cumprir nossa meta. 
+A ferramenta utilizada para essa etapa foi o Miro.
 
 ## Personas, Empatia e Proposta de Valor
 
@@ -155,28 +143,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-003| Sistema muito complexo e difícil de manusear | ALTA |
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -185,24 +151,25 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|03| Não pode ser um site complexo de se mexer             |
 
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+- Controle de Estoque: 
+Criar um gráfico do tipo "pizza" para que o usuário consiga atualizar constantemente os dados; ser ilustrativo, mostrando a quantidade, porcentagens, ícones e valores de cada produto pertencente à loja. 
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+- Orçamento e Planejamento Financeiro: 
+Controle do fluxo de caixa através de tabelas associadas a planejamentos e metas mensais.
+
+- Acesso a Podcasts: 
+Informação sobre educação financeira; atualizações do mercado financeiro ; precificação dos produtos.
+
+- Alertas e Mensagens: 
+Em conjunto das outras funcionalidades, emitir alertas ao usuário sempre quando uma alteração for feita no site; enviar mensagens de alerta sobre novos podcasts, mercadorias em falta, etc.
+
+- Calculadora Financeira: 
+Auxiliar nos cálculos matemáticos da empresa.
 
 ## User Flow
 
@@ -245,43 +212,24 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Nossa equipe foi divida baseada nos 4 tipos de perfis comportamentais. Em conjunto, a metodologia utilizada pelo grupo foi o Scrum, diante isso realizamos reuniões diárias para saber como estava o andamento do projeto. Todos do grupo participaram ativamente do processo de Design Thinking, desde a Matriz de Alinhamento CSD até a criação das personas. Também, fizemos o Brainstorming afim de propormos soluções para nosso problema. Depois que as soluções foram propostas, analizamos cada História de Usuário e unimos as ideias em um só projeto, afim de que todos os Requisistos Funcionais e Não Funcionais fossem atentidos. Com isso, chegamos a parte final e criamos um wireframe que iremos trabalhar nas futuras atividades do curso.
+Nosso grupo utilizou a plataforma Miro para realizar todas as etapas do Design Thinking. Já, a parte documentacional foi feita totalmente no GitHub. O material de  apresentação foi feito através do PowerPoint.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+Todos os integrantes participaram de todas as etapas, porém, alguns se destacaram em algumas partes devido as suas habilidades e dedicação com o curso:
+ - Pedro Henrique : Criação de Wireframe, Relatório Técnico e Apresentação do trabalho.
+ - Talisson : Criação de Wireframe, Design do Projeto e Apresentação do trabalho.
+ - Sabrina : Criação de Wireframe, Responsável pelo Processo de Design Thinking.
+ - Christian: Entrevista Qualitativa.
+ - João : Mapa de Alinhamento CSD.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVMYDaOFw=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti1-0385100-problemas-de-gestao-financeira-3 | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
 
