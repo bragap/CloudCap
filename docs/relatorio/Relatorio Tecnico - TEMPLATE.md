@@ -1,7 +1,7 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-### Fly
+### CloudCap
 ##### Suas finanças decolam rumo ao futuro
 
 `CURSO` 
