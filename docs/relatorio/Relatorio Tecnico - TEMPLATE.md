@@ -58,7 +58,7 @@ Atualmente, os microempreendedores sofrem com a inconstância do mercado finance
 
 ## Objetivos
 
-O principal objetivo é nortear as decisões da empresa para viabilizar o fortalecimento da organização e proporcionar um crescimento efetivo.Portanto, nossa aplicação tem por objetivo auxiliar o microemprendedor a administrar as financias de sua loja, não só ajudando a controlar o fluxo de caixa e o estoque, mas também a criar metas mensais e montar cronogramas de organização.
+O principal objetivo é nortear as decisões da empresa para viabilizar o fortalecimento da organização e proporcionar um crescimento efetivo.Portanto, nossa aplicação tem por objetivo auxiliar o microemprendedor a administrar as finanças de sua loja, não só ajudando a controlar o fluxo de caixa e o estoque, mas também a criar metas mensais e montar cronogramas de organização.
 
 ## Justificativa
 
