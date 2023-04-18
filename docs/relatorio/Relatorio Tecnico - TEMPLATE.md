@@ -151,7 +151,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| Não pode ser um site complexo de se mexer             |
+|03| Não pode ser um site complexo de se utilizar          |
 
 
 # Projeto de Interface
