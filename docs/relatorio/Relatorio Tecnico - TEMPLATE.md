@@ -163,27 +163,27 @@ Em conjunto das outras funcionalidades, emitir alertas ao usuário sempre quando
 
 ## User Flow
 
-Tela de entrada e interação para acessar conta :
+ - Tela de entrada e interação para acessar conta :
 
 ![Inicio](images/Parte1.jpg)
 
-Cadastro de nova conta e acesso à tela inicial :
+ - Cadastro de nova conta e acesso à tela inicial :
 
 ![Inicio](images/Parte2.jpg)
 
-Mudar mês para visualizar estoque :
+ - Mudar mês para visualizar estoque :
 
 ![Inicio](images/Parte3.jpg)
 
-Mudança do orçamento para gerenciamento do estoque :
+ - Mudança do orçamento para gerenciamento do estoque :
 
 ![Inicio](images/Parte4.jpg)
 
-Gestão do estoque e mudança para podcasts :
+ - Gestão do estoque e mudança para podcasts :
 
 ![Inicio](images/Parte5.jpg)
 
-Acesso a alertas :
+ - Acesso a alertas :
 
 ![Inicio](images/Parte6.jpg)
 
@@ -191,22 +191,22 @@ Acesso a alertas :
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+ - Wireframe 1 : Login e Registro de novas contas 
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+![Wireframe1](images/FRegistro.jpg)
+
+ - Wireframe 2 : Controle e Gestão de Estoque 
+
+![Wireframe2](images/FEstoque.jpg)
+
+ - Wireframe 3 : Orçamento e Planejamento 
+
+![Wireframe3](images/FOrçamento.jpeg)
+
+ - Wireframe 4 e 5 : Alertas/ Mensagens e Podcasts 
+
+![Wireframe45](images/FAlertaPod.jpg)
+
 
 
 # Metodologia
