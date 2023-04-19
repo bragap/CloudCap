@@ -163,21 +163,30 @@ Em conjunto das outras funcionalidades, emitir alertas ao usuário sempre quando
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+Tela de entrada e interação para acessar conta :
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+![Inicio](images/Parte1.jpg)
+
+Cadastro de nova conta e acesso à tela inicial :
+
+![Inicio](images/Parte2.jpg)
+
+Mudar mês para visualizar estoque :
+
+![Inicio](images/Parte3.jpg)
+
+Mudança do orçamento para gerenciamento do estoque :
+
+![Inicio](images/Parte4.jpg)
+
+Gestão do estoque e mudança para podcasts :
+
+![Inicio](images/Parte5.jpg)
+
+Acesso a alertas :
+
+![Inicio](images/Parte6.jpg)
+
 
 
 ## Wireframes
