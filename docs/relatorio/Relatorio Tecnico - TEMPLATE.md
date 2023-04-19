@@ -266,5 +266,7 @@ Micaela L.Rossetti. Requisitos de Software: funcionais e não-funcionais. SoftDe
 Disponível em : 
 https://softdesign.com.br/blog/requisitos-de-software-funcionais-e-nao-funcionais/
 
+- Oque é Wireframe : 
+Lucidhart. Oque é wireframe ? Disponível em : https://www.lucidchart.com/pages/pt/o-que-e-wireframe
 
 
