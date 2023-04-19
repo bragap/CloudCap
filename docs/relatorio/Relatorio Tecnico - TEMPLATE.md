@@ -250,3 +250,21 @@ etiquetas:
 
 ![Exemplo de Wireframe](images/Github-Workflow.png)
 
+# Referências
+
+- Design Thinking :
+Cayo, Woebcken. Design Thinking: uma forma inovadora de pensar e resolver problemas. RockContent, 2019. Disponível em : https://rockcontent.com/br/blog/design-thinking/
+
+- Brainstorming : 
+Cayo, Woebcken. O que é brainstorming e as 9 melhores técnicas para a tomada de decisões inteligentes RockContent, 2019. Disponível em : https://rockcontent.com/br/blog/brainstorming/
+
+- Gestão Financeira em Tempos de Crise :
+SAP Concur Team. Gestão financeira em tempos de crise: como se preparar para a recuperação. ConcurC, 2021. Disponível em : https://www.concur.com.br/blog/article/gestao-financeira-em-tempos-de-crise-como-se-preparar#:~:text=Durante%20a%20gest%C3%A3o%20financeira%20em,%C3%A0%20pol%C3%ADtica%20de%20despesas%20estabelecida.
+
+- Requisitos de Software : 
+Micaela L.Rossetti. Requisitos de Software: funcionais e não-funcionais. SoftDesign, 2021.
+Disponível em : 
+https://softdesign.com.br/blog/requisitos-de-software-funcionais-e-nao-funcionais/
+
+
+
