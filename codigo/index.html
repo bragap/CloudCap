@@ -34,6 +34,57 @@
         </div>
     </header>
 
+    <main>
+        <div id="caixa">
+            <h3> ESTOQUE </h3>
+            <div id="formProdutos">
+                Identificação: <input type="number" id="campoID" placeholder="ID"> <br>
+                Nome: <input type="text" id="campoNome" placeholder="Informe o nome do produto"> <br>
+                Quantidade: <input type="number" id="campoQtde" placeholder="Quantidade do produto"> <br>
+                Compra: <input type="number" id="campoCompra" placeholder="Valor da compra"> <br>
+                Venda: <input type="number" id="campoVenda" placeholder="Valor da venda"> <br>
+            </div>
+            <div>
+                <button id="btnCarregaDados">Carregar Estoque</button>
+                <button id="btnCadastrarProduto">Cadastrar Produto</button>
+                <button id="btnLimparForms">Limpar Formulário</button>
+                <button id="btnSalvar">Salvar Alterações</button></td>
+            </div>
+        </div>
+
+    <div id="caixa2">
+            <h3> PRODUTOS CADASTRADOS </h3>
+
+            <div class="tabela">
+                <table id="estoque">
+                    <tr>
+                        <th class="hash">Id</th>
+                        <th class="nam">Nome</th>
+                        <th class="qtde">Quantidade</th>
+                        <th class="comp">Valor de Compra</th>
+                        <th class="vend">Valor de Venda</th>
+                        <th class="alterar">Alterar</th>
+                        <th class="excluir">Excluir</th>
+                    </tr>
+
+                    <tbody id="tela">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
     
 </body>
 </html>
