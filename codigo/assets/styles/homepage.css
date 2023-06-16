@@ -15,9 +15,9 @@ header img {
     height: 150px;
 }
 header .direita {
-    display:flex;
     width:calc(25% - 10px);
     margin:10px;
+    padding-top: 30px;
 }
 header svg{
     padding:10px;
@@ -33,6 +33,7 @@ main {
     height: 780px;
     display: flex;
     padding:10px;
+    padding-top: 30px;
    background-color:#185C72;
     color: white;
     font-family: Arial;
@@ -58,7 +59,26 @@ section{
     width: calc(60%);
 }
 section img {
-    padding-top: 30px;
     width: calc(100%);
     height: calc(80%);
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 1073px) {
+    header svg {
+        display: none;
+    }
+    aside {
+        display: flex;
+        flex-wrap:wrap;
+        height: calc(100%);
+    }
+    aside button {
+        height: calc(10%);
+        padding-top: 40px;
+        margin-top: 40px;
+    }
+    header {
+        height: calc(100%);
+    }
 }
