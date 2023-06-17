@@ -52,7 +52,7 @@ aside h1{
 aside h2 {
     padding-top: 50px;
 }
-aside button {
+aside a {
     padding-top: 30px;
 }
 section{
@@ -73,7 +73,7 @@ section img {
         flex-wrap:wrap;
         height: calc(100%);
     }
-    aside button {
+    aside a {
         height: calc(10%);
         padding-top: 40px;
         margin-top: 40px;
