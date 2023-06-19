@@ -18,7 +18,17 @@
             <a href="http://127.0.0.1:5501/estoque.html" type="button" class="btn btn-info">Estoque</a>
             <a href="http://127.0.0.1:5501/metas.html"type="button" class="btn btn-info">Metas</a>
             <a href="http://127.0.0.1:5501/educacao.html"type="button" class="btn btn-info">Educação</a>
-
+            <button onclick="openPopup()"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="45" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+              </svg></button>
+            <div id="popup" class="popup" onload="atualizaNotificacoes()">
+                <div class="popup-content">
+                    <h2>Notificações</h2>
+                    <div id="notificacoes"></div>
+                    <button onclick="closePopup()">Fechar</button>
+                    <button onclick="limpaNotificacoes()">Limpar</button>
+                </div>
+            </div>
             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-fill-check" viewBox="0 0 16 16">
                 <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
                 <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
@@ -37,10 +47,10 @@
                 Venda: <input type="number" id="campoVenda" placeholder="Valor da venda"> <br>
             </div>
             <div>
-                <button id="btnCarregaDados">Carregar Estoque</button>
-                <button id="btnCadastrarProduto">Cadastrar Produto</button>
-                <button id="btnLimparForms">Limpar Formulário</button>
-                <button id="btnSalvar">Salvar Alterações</button></td>
+                <button class="btn btn-info" id="btnCarregaDados">Carregar Estoque</button>
+                <button class="btn btn-info" id="btnCadastrarProduto">Cadastrar Produto</button>
+                <button class="btn btn-info" id="btnLimparForms">Limpar Formulário</button>
+                <button class="btn btn-info" id="btnSalvar">Salvar Alterações</button></td>
             </div>
         </div>
 
@@ -77,7 +87,7 @@
     </main>
 
     <script src="./assets/scripts/estoque.js"></script>
-
+    <script src="./assets/scripts/notificacao.js"></script>
 </body>
 
 </html>

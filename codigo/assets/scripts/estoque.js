@@ -82,8 +82,8 @@ function imprimeDados() {
         <td id="${objDados.produtos[i].Id}">${objDados.produtos[i].Quantidade}</td> 
         <td id="${objDados.produtos[i].Id}">${objDados.produtos[i].Compra}</td> 
         <td id="${objDados.produtos[i].Id}">${objDados.produtos[i].Venda}</td>
-        <td id="${objDados.produtos[i].Id}"><button class="btnAlterarProduto" onclick="alterarProduto(this)" id="${objDados.produtos[i].Id}">Alterar</button>
-        <td id="${objDados.produtos[i].Id}"><button class="btnExcluirProduto" onclick="excluirProduto(this)" id="${objDados.produtos[i].Id}">Excluir</button></td>
+        <td id="${objDados.produtos[i].Id}"><button class="btnAlterarProduto btn btn-info" onclick="alterarProduto(this)" id="${objDados.produtos[i].Id}">Alterar</button>
+        <td id="${objDados.produtos[i].Id}"><button class="btnExcluirProduto btn btn-info" onclick="excluirProduto(this)" id="${objDados.produtos[i].Id}">Excluir</button></td>
         </tr>`
     }
     tela.innerHTML = strHTML;
