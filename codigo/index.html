@@ -1,90 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página do Usuário</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="./assets/styles/index.css" rel="stylesheet">
+    <title>Página Inicial</title>
 </head>
+
 <body>
     <header>
         <div class="logo_site"> <img src="./assets/images/logo.png"></div>
+        <div class="direita">
+            <a type="button" class="btn btn-info">Início</a>
+            <a type="button" class="btn btn-info">Estoque</a>
+            <a type="button" class="btn btn-info">Metas</a>
+            <a type="button" class="btn btn-info">Educação</a>
 
-        <div class="row">
-            <div class="col">
-                <div class="direita">
-                    <div class="justify-content-md-end">
-                        <button type="button" class="btn btn-outline-light">Educação Financeira</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="d-grid gap-2 justify-content-md-end">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
-                        class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                        <path fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                    </svg>
-                </div>
-            </div>
-        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-circle"
+            viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+        </svg>
+        <a href="http://127.0.0.1:5501/login.html" type="button" class="btn btn-info ">Entrar</a>
+        
     </header>
-
     <main>
-        <div id="caixa">
-            <h3> ESTOQUE </h3>
-            <div id="formProdutos">
-                Identificação: <input type="number" id="campoID" placeholder="ID"> <br>
-                Nome: <input type="text" id="campoNome" placeholder="Informe o nome do produto"> <br>
-                Quantidade: <input type="number" id="campoQtde" placeholder="Quantidade do produto"> <br>
-                Compra: <input type="number" id="campoCompra" placeholder="Valor da compra"> <br>
-                Venda: <input type="number" id="campoVenda" placeholder="Valor da venda"> <br>
-            </div>
-            <div>
-                <button id="btnCarregaDados">Carregar Estoque</button>
-                <button id="btnCadastrarProduto">Cadastrar Produto</button>
-                <button id="btnLimparForms">Limpar Formulário</button>
-                <button id="btnSalvar">Salvar Alterações</button></td>
-            </div>
-        </div>
-
-    <div id="caixa2">
-            <h3> PRODUTOS CADASTRADOS </h3>
-
-            <div class="tabela">
-                <table id="estoque">
-                    <tr>
-                        <th class="hash">Id</th>
-                        <th class="nam">Nome</th>
-                        <th class="qtde">Quantidade</th>
-                        <th class="comp">Valor de Compra</th>
-                        <th class="vend">Valor de Venda</th>
-                        <th class="alterar">Alterar</th>
-                        <th class="excluir">Excluir</th>
-                    </tr>
-
-                    <tbody id="tela">
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+        <aside>
+            <h1> Transforme seus <br> sonhos em realidade <br> com um planejamento <br> financeiro sólido </h1>
+            <a type="button" href="http://127.0.0.1:5501/login.html" class="btn btn-info ">Cadastre-se</a>
+            <h2>Conte conosco !</h2>
+        </aside>
+        <section> <img src="./assets/images/img1.jpg"></section>
     </main>
 
-    <script src="index.js"></script>
-    
 </body>
+
 </html>

@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
     display: flex;
     width: calc(100%);
@@ -7,17 +10,29 @@ header {
     height: 180px;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 header img {
     width: calc(100%);
     height: 150px;
 }
+
 header .direita {
-    width:calc(25% - 10px);
-    margin:10px;
-    padding-top: 30px;
+    display: flex;
+    height: calc(30%);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width:calc(50%);
+    margin:50px;
 }
+header a {
+    margin: 10px;
+}
+a:hover{
+        background-color: white;
+        opacity: 60%;
+    }
 header svg{
     padding:10px;
 }
@@ -26,153 +41,58 @@ header h1{
     margin: 30px;
 }
 
-body {
-    background-color:#185C72 ;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-h1 {
-    text-align: center;
-}
-
 main {
+    border: 2px solid white;
     width: calc(100%);
-    background-color:#185C72 ;
+    height: 780px;
+    display: flex;
+    padding:10px;
+    padding-top: 30px;
+   background-color:#185C72;
+    color: white;
+    font-family: Arial;
+}
+aside {
+    display: block;
+    width: calc(50%);
+    background-color:#185C72;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+aside h1{
+    height: calc(35%);
+}
+aside h2 {
+    padding-top: 50px;
+}
+aside a {
+    padding-top: 30px;
+}
+section{
+    width: calc(60%);
+}
+section img {
+    width: calc(100%);
+    height: calc(80%);
+    border-radius: 40px;
 }
 
-main h3 {
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
+@media screen and (max-width: 1073px) {
+    header svg {
+        display: none;
+    }
+    aside {
+        display: flex;
+        flex-wrap:wrap;
+        height: calc(100%);
+    }
+    aside a {
+        height: calc(10%);
+        padding-top: 40px;
+        margin-top: 40px;
+    }
+    header {
+        height: calc(100%);
+    }
 }
-
-main div {
-    text-align: center;
-}
-
-main button {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-main button:hover{
-    background-color: white;
-    opacity: 60%;
-}
-main #btnCarregaDados {
-background-color:#00D1C5;
-border: 3px solid white;
-border-radius: 10px;
-}
-main #btnCadastrarProduto {
-    background-color:#00D1C5;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-
-main #btnLimparForms {
-    background-color: #00D1C5;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-main .btnAlterarProduto{
-    background-color:#00D1C5;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-
-main #btnSalvar {
-    background-color: #00D1C5;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-
-main .btnExcluirProduto{
-    background-color: #00D1C5;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-
-
-
-header {
-    border: 1px solid rgb(255, 255, 255);
-}
-#caixa{
-    border: 1px solid rgb(255, 255, 255);
-}
-#caixa2{
-    border: 1px solid rgb(255, 255, 255);
-}
-#formProdutos #campoID {
-    width: 350px;
-}
-#formProdutos #campoQtde {
-    width: 359px;
-}
-#formProdutos #campoCompra {
-    width: 390px;
-}
-#formProdutos #campoVenda {
-    width: 405px;
-}
-#formProdutos #campoNome {
-    width: 409px;
-}
-
-#formProdutos {
-    margin: 10px;
-    padding: 10px;
-
-}
-::placeholder {
-    
-    color:lightskyblue;
-
-}
-.tabela {
-    width: 100%;
-}
-
-td, th {
-    padding: 8px;
-    height: 20px;
-  }
-  
-  td {
-    border: 2px solid #ddd;
-  }
-  
-  th {
-    width: 100%;
-    border: 1px solid #ffffff;
-    background-color: #1b1b1b;
-    text-align: center;
-  }
-  div .hash {
-    width: calc(5%);
-  }
-  div .qtde {
-    width: calc(5%);
-  }
-  div .comp {
-    width: calc(20%);
-  }
-  div .vend {
-    width: calc(20%);
-  }
-  div .nam {
-    width: calc(20%);
-  } 
- 
-  div #msg {
-    color: yellow;
-  }
-  div .alterar {
-    width: calc(3%);
-  }
-  div .excluir {
-    width: calc(3%);
-  }
