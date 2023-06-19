@@ -220,3 +220,15 @@ td, th {
     background-color: white;
     opacity: 60%;
 }
+
+@media screen and  (max-width: 1050px) {
+header {
+    display: block;
+    width: calc(100%);
+}
+header img{
+    width: calc(100%);
+}
+
+}
+    
