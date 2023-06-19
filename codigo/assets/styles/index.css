@@ -79,20 +79,26 @@ section img {
 }
 
 @media screen and (max-width: 1073px) {
-    header svg {
-        display: none;
-    }
+    body{
+        width: calc(100%);
+    background-color: #185C72;    
+}
+   
     aside {
         display: flex;
         flex-wrap:wrap;
         height: calc(100%);
     }
     aside a {
-        height: calc(10%);
+        height: calc(7%);
         padding-top: 40px;
         margin-top: 40px;
     }
     header {
         height: calc(100%);
+        width: calc(100%);
+    }
+    .direita #apa{
+        display: none;
     }
 }
