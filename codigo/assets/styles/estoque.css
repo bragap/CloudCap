@@ -242,5 +242,34 @@ td, th {
             display: block;
             width: calc(100%);
         } 
+        h1 {
+            font-size: 1.5em;
+          }
         
+          form label,
+          form input,
+          form select {
+            font-size: 0.8em;
+          }
+        
+          table,
+          table th,
+          table td {
+            font-size: 0.8em;
+          }
+          #tela button {
+            font-size: 0.7em;
+          }
+          #estoque{
+            width: calc(55%);
+            background-color: rgb(255, 255, 255);
+          }
+         #estoque tr .hash{
+            width: 1px;
+           background-color: rgb(243, 12, 12);
+          }
+          #estoque #tela tr{
+            width: 1px;
+            background-color: blue
+          }
 }
