@@ -121,17 +121,18 @@ header {
     width: 350px;
 }
 #formProdutos #campoQtde {
-    width: 359px;
+    width: 350px;
 }
 #formProdutos #campoCompra {
-    width: 390px;
+    width: 350px;
 }
 #formProdutos #campoVenda {
-    width: 405px;
+    width: 350px;
 }
 #formProdutos #campoNome {
-    width: 409px;
+    width: 350px;
 }
+
 
 #formProdutos {
     margin: 10px;
@@ -222,13 +223,24 @@ td, th {
 }
 
 @media screen and  (max-width: 1050px) {
-header {
-    display: block;
-    width: calc(100%);
+        body {
+            padding: none;
+            margin: none;
+            display: block;
+        }
+        
+        #caixa2 {
+            display: block;
+        }
+        #formProdutos {
+            display: flex;
+            flex-wrap: wrap;
+            width: calc(80%);
+            justify-content: center;
+        }
+        #formProdutos p {
+            display: block;
+            width: calc(100%);
+        } 
+        
 }
-header img{
-    width: calc(100%);
-}
-
-}
-    
