@@ -11,27 +11,39 @@ function leDados() {
                     "Nome": "Colar de Ouro",
                     "Quantidade": 1,
                     "Compra": 100,
-                    "Venda": 200
+                    "Venda": 200,
+                    "titulo": "Colar de Ouro",
+                    "mensagem": "Você ainda não vendeu todos os produtos ... !",
+                    "data": 2023 - 06 - 21
                 },
                 {
                     "Id": 2,
                     "Nome": "Pulseira de Prata",
                     "Quantidade": 10,
                     "Compra": 200,
-                    "Venda": 300
+                    "Venda": 300,
+                    "titulo": "Colar de Ouro",
+                    "mensagem": "Você ainda não vendeu todos os produtos ... !",
+                    "data": 2023 - 06 - 21
                 },
                 {
                     "Id": 3,
                     "Nome": "Anel de Ouro",
                     "Quantidade": 30,
                     "Compra": 500,
-                    "Venda": 800
+                    "Venda": 800,
+                    "titulo": "Colar de Ouro",
+                    "mensagem": "Você ainda não vendeu todos os produtos ... !",
+                    "data": 2023 - 06 - 21
                 }, {
                     "Id": 4,
                     "Nome": "Anel de Prata",
                     "Quantidade": 20,
                     "Compra": 150,
-                    "Venda": 280
+                    "Venda": 280,
+                    "titulo": "Colar de Ouro",
+                    "mensagem": "Você ainda não vendeu todos os produtos ... !",
+                    "data": 2023 - 06 - 21
                 }
             ]
         }
