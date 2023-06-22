@@ -1,5 +1,5 @@
 function leDados() {
-    let strDados = localStorage.getItem('estoque');
+    let strDados = localStorage.getItem('data');
     let objDados = {};
     if (strDados) {
         objDados = JSON.parse(strDados);
@@ -39,7 +39,7 @@ function leDados() {
     return objDados;
 }
 function salvaDados(dados) {
-    localStorage.setItem('estoque', JSON.stringify(dados));
+    localStorage.setItem('data', JSON.stringify(dados));
 }
 
 function incluirProduto() {
@@ -82,8 +82,8 @@ function imprimeDados() {
         <td id="${objDados.produtos[i].Id}">${objDados.produtos[i].Quantidade}</td> 
         <td id="${objDados.produtos[i].Id}">${objDados.produtos[i].Compra}</td> 
         <td id="${objDados.produtos[i].Id}">${objDados.produtos[i].Venda}</td>
-        <td id="${objDados.produtos[i].Id}"><button class="btnAlterarProduto" onclick="alterarProduto(this)" id="${objDados.produtos[i].Id}">Alterar</button>
-        <td id="${objDados.produtos[i].Id}"><button class="btnExcluirProduto" onclick="excluirProduto(this)" id="${objDados.produtos[i].Id}">Excluir</button></td>
+        <td id="${objDados.produtos[i].Id}"><button class="btnAlterarProduto btn btn-info" onclick="alterarProduto(this)" id="${objDados.produtos[i].Id}">Alterar</button>
+        <td id="${objDados.produtos[i].Id}"><button class="btnExcluirProduto btn btn-info" onclick="excluirProduto(this)" id="${objDados.produtos[i].Id}">Excluir</button></td>
         </tr>`
     }
     tela.innerHTML = strHTML;
@@ -102,7 +102,7 @@ function limparFormulario() {
 }
 
 function excluirProduto(botao) {
-
+    leDados();
     // Encontra a linha da tabela correspondente ao botão clicado
     var linha = botao.parentNode.parentNode;
 
@@ -110,18 +110,18 @@ function excluirProduto(botao) {
     var idProduto = linha.cells[0].innerText;
 
     // Obtém o valor atual do Local Storage
-    var estoque = JSON.parse(localStorage.getItem("estoque"));
+    var data = JSON.parse(localStorage.getItem("data"));
 
     // Procura o índice do produto a ser removido no array
-    var index = estoque.produtos.findIndex(function (produto) {
+    var index = data.produtos.findIndex(function (produto) {
         return produto.Id === idProduto;
     });
 
     // Remove o produto do array
-    estoque.produtos.splice(index, 1);
+    data.produtos.splice(index, 1);
 
     // Atualiza o valor do Local Storage
-    localStorage.setItem("estoque", JSON.stringify(estoque));
+    localStorage.setItem("data", JSON.stringify(data));
 
     // Remove a linha da tabela
     linha.parentNode.removeChild(linha);
@@ -130,6 +130,7 @@ function excluirProduto(botao) {
 }
 
 function alterarProduto(botao) {
+    leDados();
     // Encontra a linha da tabela correspondente ao botão clicado
     var linha = botao.parentNode.parentNode;
 
@@ -137,10 +138,10 @@ function alterarProduto(botao) {
     var idProduto = linha.cells[0].innerText;
 
     // Obtém o valor atual do Local Storage
-    var estoque = JSON.parse(localStorage.getItem("estoque"));
+    var data = JSON.parse(localStorage.getItem("data"));
 
     // Procura o índice do produto a ser atualizado no array
-    var index = estoque.produtos.findIndex(function (produto) {
+    var index = data.produtos.findIndex(function (produto) {
         return produto.Id.toString() === idProduto;
     });
 
@@ -150,11 +151,11 @@ function alterarProduto(botao) {
     }
 
     // Preenche os campos com os valores atuais do produto
-    document.getElementById("campoID").value = estoque.produtos[index].Id;
-    document.getElementById("campoNome").value = estoque.produtos[index].Nome;
-    document.getElementById("campoQtde").value = estoque.produtos[index].Quantidade;
-    document.getElementById("campoCompra").value = estoque.produtos[index].Compra;
-    document.getElementById("campoVenda").value = estoque.produtos[index].Venda;
+    document.getElementById("campoID").value = data.produtos[index].Id;
+    document.getElementById("campoNome").value = data.produtos[index].Nome;
+    document.getElementById("campoQtde").value = data.produtos[index].Quantidade;
+    document.getElementById("campoCompra").value = data.produtos[index].Compra;
+    document.getElementById("campoVenda").value = data.produtos[index].Venda;
 
     var btnSalvar = document.getElementById("btnSalvar");
     if (btnSalvar) {
@@ -164,12 +165,12 @@ function alterarProduto(botao) {
             // Verifica se o elemento com ID "campoID" existe antes de atualizar os dados
             var campoID = document.getElementById("campoID");
             if (campoID) {
-                estoque.produtos[index].Id = campoID.valueAsNumber;
-                estoque.produtos[index].Nome = document.getElementById("campoNome").value;
-                estoque.produtos[index].Quantidade = document.getElementById("campoQtde").valueAsNumber;
-                estoque.produtos[index].Compra = document.getElementById("campoCompra").valueAsNumber;
-                estoque.produtos[index].Venda = document.getElementById("campoVenda").valueAsNumber;
-                localStorage.setItem("estoque", JSON.stringify(estoque));
+                data.produtos[index].Id = campoID.valueAsNumber;
+                data.produtos[index].Nome = document.getElementById("campoNome").value;
+                data.produtos[index].Quantidade = document.getElementById("campoQtde").valueAsNumber;
+                data.produtos[index].Compra = document.getElementById("campoCompra").valueAsNumber;
+                data.produtos[index].Venda = document.getElementById("campoVenda").valueAsNumber;
+                localStorage.setItem("data", JSON.stringify(data));
             }
             window.alert("Produto alterado com sucesso");
             // Atualiza a linha da tabela correspondente ao produto
