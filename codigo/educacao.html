@@ -11,288 +11,84 @@
   <link href="./assets/styles/educacao.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body style=" background-color:#185C72">
 
   <header>
     <div class="logo_site"> <img src="./assets/images/logo.png"></div>
     <div class="direita">
         <a href="http://127.0.0.1:5501/inicio.html" type="button" class="btn btn-info">Início</a>
         <a href="http://127.0.0.1:5501/estoque.html" type="button" class="btn btn-info">Estoque</a>
-        <a href="http://127.0.0.1:5501/metas.html"type="button" class="btn btn-info">Metas</a>
-        <a href="http://127.0.0.1:5501/educacao.html"type="button" class="btn btn-info">Educação</a>
-        <button onclick="openPopup()"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="45" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
-            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
-          </svg></button>
-        <div id="popup" class="popup" onload="atualizaNotificacoes()">
-            <div class="popup-content">
-                <h2>Notificações</h2>
-                <div id="notificacoes"></div>
-                <button onclick="closePopup()">Fechar</button>
-                <button onclick="limpaNotificacoes()">Limpar</button>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-fill-check" viewBox="0 0 16 16">
-            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
-            <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
-          </svg>
-    <a href="http://127.0.0.1:5501/index.html" type="button" class="btn btn-info ">Sair</a>
+        <a href="http://127.0.0.1:5501/metas.html" type="button" class="btn btn-info">Metas</a>
+        <a href="http://127.0.0.1:5501/educacao.html" type="button" class="btn btn-info">Educação</a>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+            class="bi bi-person-fill-check" viewBox="0 0 16 16">
+            <path
+                d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            <path
+                d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z" />
+        </svg>
+        <a href="http://127.0.0.1:5501/index.html" type="button" class="btn btn-info ">Sair</a>
 </header>
 
-  <header>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
-        <div class="row">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <dl>
-              <dt>
-                <div class="col">
-                  <label for="filtro-tema">Filtrar por tema:</label>
-                  <select id="filtro-tema">
-                    <option value="">Todos</option>
-                    <option value="Finanças">Finanças</option>
-                    <option value="Educação Financeira">Educação Financeira</option>
-                    <option value="Vendas">Vendas</option>
-                    <option value="Planejamento">Planejamento</option>
-                  </select>
-                </div>
-              </dt><br />
-              <dt>
-                <div class="col">
-                  <label for="filtro-tipo">Filtrar por tipo:</label>
-                  <select id="filtro-tipo">
-                    <option value="">Todos</option>
-                    <option value="Artigo | SEBRAE | Português">Artigo</option>
-                    <option value="Podcast | Spotify | G1 | Português">Podcast</option>
-                    <option value="E-Book | SEBRAE | Português">E-Book</option>
-                    <option value="Vídeos | SEBRAE | Português">Vídeos</option>
-                  </select>
-                </div>
-              </dt>
-            </dl>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-
-
-  <main>
-    <div class="container-fluid">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 p-2" id="cards-container">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Finanças</h5>
-              <p class="card-text">Artigo | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/gestaopequenonegocio.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Como fazer a gestão financeira do pequeno negócio.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/artigos/como-fazer-a-gestao-financeira-do-pequeno-negocio,d999a442d2e5a410VgnVCM1000003b74010aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Educação Financeira</h5>
-              <p class="card-text">Podcast | Spotify | G1 | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/financiamentocreditocaro.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Crédito está caro: como ficam financiamentos e empréstimos?</p>
-                <a href="https://open.spotify.com/episode/5f4KrY25VVmGP68RcsMMfN?si=JhpQsqV_QKih6ucqkoEHQg"
-                  class="btn btn-info w-100">Ouça aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Vendas</h5>
-              <p class="card-text">Artigo | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/marketingdigital.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Importância do marketing digital nas redes sociais da pequena empresa.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/importancia-do-marketing-digital-nas-redes-sociais-da-pequena-empresa,21cb6ae54f417810VgnVCM1000001b00320aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Finanças</h5>
-              <p class="card-text">E-Book | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/curvaabcefluxodecaixa.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Fluxo de caixa e Curva ABC do produto: duas ferramentas fundamentais para a gestão. </p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/arquivos/fluxo-de-caixa-e-curva-abc-do-produto,a9663256cb597810VgnVCM1000001b00320aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Finanças</h5>
-              <p class="card-text">Vídeos | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/emitirnotasfiscais.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Como emitir Notas Fiscais. | Uma série de vídeos sobre o tema.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/produtoseservicos/emissornfe/os-servicos-disponiveis-no-novo-emissor,f1883256cb597810VgnVCM1000001b00320aRCRD"
-                  class="btn btn-info w-100">Assista aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Finanças</h5>
-              <p class="card-text">Artigo | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/conhecendolinhasdecredito.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Conheça as linhas de crédito disponíveis para MEI.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/artigos/conheca-as-linhas-de-credito-disponiveis-para-mei,cb7b198074952810VgnVCM100000d701210aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Educação Financeira</h5>
-              <p class="card-text">Podcast | Spotify | G1 | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/investierrado.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Investi errado, e agora? | Participação da Sharon Halpern.</p>
-                <a href="https://open.spotify.com/episode/22QFVvdBdeFOWd0EZ18B2x?si=0YqOBv6zQSOpvDh4nbf6Qw"
-                  class="btn btn-info w-100">Ouça aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Finanças</h5>
-              <p class="card-text">Artigo | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/garantiadecredito.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Conheça uma opção de garantia de crédito para pequenos negócios.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/artigos/conheca-opcoes-de-garantia-de-credito-para-pequenos-negocios,a6dea442d2e5a410VgnVCM1000003b74010aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Educação Financeira</h5>
-              <p class="card-text">Podcast | Spotify | G1 | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/vendasmarketplace.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Lições para entrar - e arrasar nas vendas - em um marketplace.</p>
-                <a href="https://open.spotify.com/episode/58GOtrjuczXrTz2jh4OfpQ?si=mkToX9YXSCa_fll3mnvVtw"
-                  class="btn btn-info w-100">Ouça aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Planejamento</h5>
-              <p class="card-text">Artigo | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/iniciarumnegocio.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Como se preparar para iniciar um negócio: Reflexão, planejamento e custos.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/artigos/como-se-preparar-para-iniciar-um-negocio,a63555c941726810VgnVCM1000001b00320aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Planejamento</h5>
-              <p class="card-text">Artigo | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/expandirempresa.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">Quer expandir a sua empresa? Saiba como fazer.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/artigos/quer-expandir-a-sua-empresa-saiba-como-fazer,cd35eef40ce06810VgnVCM1000001b00320aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card h-100">
-            <div class=" card-body">
-              <h5 class="card-title">Planejamento</h5>
-              <p class="card-text">Artigo | SEBRAE | Português</p>
-              <div class="ratio ratio-1x1">
-                <img src="./assets/images/planejamentofinanceiro.jpg" class="card-img-top" style="object-fit:contain;">
-              </div>
-              <div class="content">
-                <p class="card-nome">O que é um planejamento empresarial? | Esteja preparado para qualquer adversidade.</p>
-                <a href="https://sebrae.com.br/sites/PortalSebrae/artigos/o-que-e-um-planejamento-empresarial,8ba3b543515d2810VgnVCM100000d701210aRCRD"
-                  class="btn btn-info w-100">Leia aqui</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+<nav>
+  <div class="row">
+    <div class="col">
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Pesquisar por nome...">
+        <button id="search-button" class="btn btn-info"onclick="searchBooks()">Pesquisar</button>
       </div>
     </div>
-    </div>
-    </div>
-  </main>
-  <script src="./assets/scripts/educacao.js"></script>
-  <script src="./assets/scripts/notificacao.js"></script>
+    <div class="filter-container">
+      <div class="col">
+        <label for="theme-filter">Filtrar por tema:</label>
+        <select id="theme-filter" onchange="filterBooks()">
+          <option value="all">Todos</option>
+          <option value="Finanças">Finanças</option>
+          <option value="Educação Financeira">Educação Financeira</option>
+          <option value="Vendas">Vendas</option>
+          <option value="Planejamento">Planejamento</option>
+        </select>
+      </div>
 
+      <div class="col">
+        <label for="type-filter">Filtrar por tipo:</label>
+        <select id="type-filter" onchange="filterBooks()">
+          <option value="all">Todos</option>
+          <option value="Artigo">Artigo</option>
+          <option value="Podcast">Podcast</option>
+          <option value="E-Book">E-Book</option>
+          <option value="Vídeos">Vídeos</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+
+<div id="cards-container" style=" background-color:#185C72"class="row g-4 p-3"></div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Mais detalhes:</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p id="modal-detalhes"></p>
+    </div>
+    <div class="modal-footer">
+      <a id="modal-link" class="btn btn-primary">Acesse aqui</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<script src="./assets/scripts/educacao.js"></script>
 </body>
 
 </html>
