@@ -1,33 +1,35 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
-    display: flex;
-    width: calc(100%);
-    justify-content: space-between;
-    padding: 10px;
-    background-color:#185C72 ;
-    height: 180px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    border: 3px solid white;
+nav {
+  background-color: #185C72;
+  border: 2px solid white;
 }
-header img {
-    width: calc(100%);
-    height: 150px;
+.nav-item{
+ padding: 5px;;
 }
-header .direita {
-    display: flex;
-    height: calc(30%);
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    width:calc(50%);
-    margin:50px;
+
+@media screen and (max-width:1220px) {
+  nav h4 {
+    display: none;
+  }
+  
 }
-header a {
-    margin: 10px;
+nav h4{
+  color: #185C72;
 }
+nav button {
+  border-radius: 10px;
+  border: 1px solid white;
+}
+nav svg {
+  width: 30px;
+}
+nav div img {
+  width: calc(45%);
+  height: 150px;
+}
+
 a:hover{
         background-color: white;
         opacity: 60%;
@@ -35,13 +37,6 @@ a:hover{
 
 
 
-header svg{
-    padding:10px;
-}
-header h1{
-    align-content: center;
-    margin: 30px;
-}
 
 body {
     background-color:#185C72 ;
@@ -108,15 +103,6 @@ main .btnExcluirProduto{
 
 
 
-header {
-    border: 1px solid rgb(255, 255, 255);
-}
-#caixa{
-    border: 1px solid rgb(255, 255, 255);
-}
-#caixa2{
-    border: 1px solid rgb(255, 255, 255);
-}
 #formProdutos #campoID {
     width: 350px;
 }
@@ -262,14 +248,76 @@ td, th {
           }
           #estoque{
             width: calc(55%);
-            background-color: rgb(255, 255, 255);
+           
           }
          #estoque tr .hash{
             width: 1px;
-           background-color: rgb(243, 12, 12);
+           
           }
           #estoque #tela tr{
             width: 1px;
-            background-color: blue
+            
           }
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@media screen and (max-width:545px){
+  div .hash {
+    width: calc(5%);
+  }
+  div .qtde {
+    width: calc(1%);
+  }
+  div .comp {
+    width: calc(10%);
+  }
+  div .vend {
+    width: calc(10%);
+  }
+  div .nam {
+    width: calc(10%);
+  } 
+
+  div .alterar {
+    width: calc(3%);
+  }
+  div .excluir {
+    width: calc(3%);
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+
+  form label,
+  form input,
+  form select {
+    font-size: 0.8em;
+  }
+
+  table,
+  table th,
+  table td {
+    font-size: 0.8em;
+  }
+  #tela button {
+    font-size: 0.7em;
+  }
+  #estoque{
+    width: calc(55%);
+   
+  }
+ #estoque tr .hash{
+    width: 1px;
+   
+  }
+}
+
+@media screen and (max-width:1080px) and (min-width:992px){
+  nav {
+      border:none;
+  }
 }
