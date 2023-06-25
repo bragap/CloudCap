@@ -16,7 +16,7 @@ header {
     border: 2px solid white;
 }
 header img {
-    width: calc(100%);
+    width: calc(30%);
     height: 150px;
 }
 
@@ -104,4 +104,42 @@ section img {
     .direita #apa{
         display: none;
     }
+}
+
+@media screen and (max-width: 780px) {
+    body{
+        width: calc(100%);
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header img{
+        display: block;
+        width: calc(90%);
+    } 
+    header .direita {
+        display: block;
+        width: calc(100%);
+    }
+    main {
+    display: flex;
+    flex-wrap: wrap; 
+    width: calc(100%);    
+   }
+   aside {
+    display: flex;
+   }
+   section img {
+    display: block;
+    width: calc(90%);
+    margin-left: 30px;
+   }
+   .container {
+    display: none;
+   }
+   aside a {
+    height: calc(10%)
+   }
+    
 }
