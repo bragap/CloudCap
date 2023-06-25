@@ -17,11 +17,11 @@ O principal objetivo é nortear as decisões da empresa para viabilizar o fortal
 
 ## Instruções de utilização
 * CloudCap é uma plataforma 100% gratuita. Confira o passo-a-passo:
-1- Realizar cadastro/login na plataforma CloudCap.
-2- Tela de início: possui todas as opções disponíveis no site.
-3- Estoque: cadastro de novos produtos, atualização e exclusão.
-4- Metas: criar metas mensais, atualizá-las e excluí-las.
-5- Educação financeira: acesso e redirecionamento a podcasts, revistas, vídeos sobre educação e planejamento financeiro.
-6- Notificações: notificações para manter o usuário em alerta e atualizado sobre seu negócio.
+** 1- Realizar cadastro/login na plataforma CloudCap.
+** 2- Tela de início: possui todas as opções disponíveis no site.
+** 3- Estoque: cadastro de novos produtos, atualização e exclusão.
+** 4- Metas: criar metas mensais, atualizá-las e excluí-las.
+** 5- Educação financeira: acesso e redirecionamento a podcasts, revistas, vídeos sobre educação e planejamento financeiro.
+** 6- Notificações: notificações para manter o usuário em alerta e atualizado sobre seu negócio.
 
 * Não é necessário instalar outras aplicações.
