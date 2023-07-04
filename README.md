@@ -26,3 +26,6 @@ O principal objetivo é nortear as decisões da empresa para viabilizar o fortal
 *  6- Notificações: notificações para manter o usuário em alerta e atualizado sobre seu negócio.
 
 * Não é necessário instalar outras aplicações.
+
+## Link de acesso ao CloudCap:
+https://icei-puc-minas-pples-ti.github.io/plf-es-2023-1-ti1-0385100-problemas-de-gestao-financeira-3/
