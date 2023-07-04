@@ -39,6 +39,9 @@
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
+- [Projeto da Solução](#projeto-da-solução)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Arquitetura da solução](#arquitetura-da-solução) 
 
 
 # Introdução
@@ -208,7 +211,6 @@ Em conjunto das outras funcionalidades, emitir alertas ao usuário sempre quando
 ![Wireframe45](images/FAlertaPod.jpg)
 
 
-
 # Metodologia
 
 Nossa equipe foi divida baseada nos 4 tipos de perfis comportamentais. Em conjunto, a metodologia utilizada pelo grupo foi o Scrum, diante isso realizamos reuniões diárias para saber como estava o andamento do projeto. Todos do grupo participaram ativamente do processo de Design Thinking, desde a Matriz de Alinhamento CSD até a criação das personas. Também, fizemos o Brainstorming afim de propormos soluções para nosso problema. Depois que as soluções foram propostas, analizamos cada História de Usuário e unimos as ideias em um só projeto, afim de que todos os Requisistos Funcionais e Não Funcionais fossem atentidos. Com isso, chegamos a parte final e criamos um wireframe que iremos trabalhar nas futuras atividades do curso.
@@ -249,6 +251,103 @@ etiquetas:
  - `feature`: uma nova funcionalidade precisa ser introduzida
 
 ![Exemplo de Wireframe](images/Github-Workflow.png)
+
+
+
+# Projeto da Solução 
+
+## Tecnologias Utilizadas 
+
+Foram utilizados as seguintes tecnologias: GitHub Pages, GitHub, Visual Studio Code, Miro e Discord.
+
+
+
+## Arquitetura da solução 
+
+
+Funcionalidade 1 - Página de Login
+Permite o cadastro de usuário e o login para entrar no site.
+
+Estrutura de dados: Cadastro e Login
+Template disponibilizado para os alunos.
+
+Instruções de acesso para cadastro:
+Abra o site e clique em "cadastrar-se".
+Preencha todas as informações solicitadas e clique em salvar.
+Parabéns, você está cadastrado no sistema!
+Instruções de acesso para login:
+Agora que você já está cadastrado, clique em "entrar".
+Preencha seu nome de usuário e senha nos campos correspondentes.
+Clique em "entrar" para acessar sua conta.
+
+
+Funcionalidade 2 - Página de Estoque (Cadastro)
+Permite a inclusão, leitura, alteração e exclusão de produtos para o sistema.
+
+Estrutura de dados: Estoque (Cadastro)
+Feito por Pedro Henrique Braga de Castro.
+
+Instruções de acesso:
+Vá até a página de estoque.
+Insira as informações do produto nos campos correspondentes.
+Em seguida, escolha a opção "Cadastrar Produto".
+
+
+Funcionalidade 3 - Página de Metas (Cadastro)
+Permite a inclusão, leitura, alteração e exclusão de metas para o sistema.
+
+Estrutura de dados: Metas (Cadastro)
+Feito por Talisson Augusto Prudêncio Santos.
+
+Instruções de acesso:
+Vá até a página de metas.
+Insira as informações da meta nos campos correspondentes.
+Em seguida, escolha a opção "Adicionar Metas".
+
+
+Funcionalidade 4 - Página de Metas (Pesquisa e Filtro)
+Permite a pesquisa por nome e a filtragem por categoria para o sistema na página de metas.
+
+Estrutura de dados: Metas (Pesquisa)
+Feito por Talisson Augusto Prudêncio Santos.
+
+Instruções para a pesquisa:
+Vá até a página de metas.
+No campo de pesquisa, digite o nome ou termo que deseja encontrar.
+À medida que você digita, os resultados relevantes serão exibidos rapidamente, facilitando a localização do que você procura.
+Instruções para as filtragens:
+Vá até a página de metas.
+Explore as opções disponíveis para filtragem, como categorias, datas ou outros critérios relevantes.
+Ao selecionar uma ou mais opções de filtragem, os resultados correspondentes serão exibidos rapidamente, permitindo que você encontre o que procura com facilidade.
+
+
+Funcionalidade 5 - Notificações
+Permite a visualização de notificações no sistema.
+
+Estrutura de dados: Notificações
+Feito por Christian Nathan Lima Signoretti.
+
+Instruções de acesso:
+Clique no botão "sino".
+As notificações serão exibidas, mostrando informações relevantes ou atualizações recentes.
+
+
+Funcionalidade 6 - Página de Educação Financeira (Filtro e Pesquisa)
+Permite a pesquisa por nome e a filtragem por tema e tipo para o sistema na página de educação.
+
+Estrutura de dados: Educação Financeira (Filtro)
+Feito por Sabrina Ferreira Vieira.
+
+Instruções para a pesquisa:
+Vá até a página de educação.
+No campo de pesquisa, digite o nome ou termo que deseja encontrar.
+À medida que você digita, os resultados relevantes serão exibidos rapidamente, facilitando a localização do que você procura.
+Instruções para as filtragens:
+Vá até a página de educação.
+Explore as opções disponíveis para filtragem, como categorias, datas ou outros critérios relevantes.
+Ao selecionar uma ou mais opções de filtragem, os resultados correspondentes serão exibidos rapidamente, permitindo que você encontre o que procura com facilidade.
+ 
+
 
 # Referências
 
