@@ -1,8 +1,8 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-### CloudCap
-##### Suas finanças decolam rumo ao futuro
+### CloudCap - Suas finanças decolam rumo ao futuro
+##### Problemas com a gestão de estoque? A Cloud Cap permite o gerenciamento de estoque e metas para suas finanças, além de disponibilizar conteúdos de educação financeira para auxiliar em seu empreendimento.
 
 `CURSO` 
 
