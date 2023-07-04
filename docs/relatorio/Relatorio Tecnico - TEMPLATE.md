@@ -42,7 +42,7 @@
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução) 
-
+- [Referências](#referências) 
 
 # Introdução
 
@@ -265,7 +265,7 @@ Foram utilizados as seguintes tecnologias: GitHub Pages, GitHub, Visual Studio C
 ## Arquitetura da solução 
 
 
-Funcionalidade 1 - Página de Login
+### Funcionalidade 1 - Página de Login
 Permite o cadastro de usuário e o login para entrar no site.
 
 Estrutura de dados: Cadastro e Login
@@ -281,7 +281,7 @@ Preencha seu nome de usuário e senha nos campos correspondentes.
 Clique em "entrar" para acessar sua conta.
 
 
-Funcionalidade 2 - Página de Estoque (Cadastro)
+### Funcionalidade 2 - Página de Estoque (Cadastro)
 Permite a inclusão, leitura, alteração e exclusão de produtos para o sistema.
 
 Estrutura de dados: Estoque (Cadastro)
@@ -293,7 +293,7 @@ Insira as informações do produto nos campos correspondentes.
 Em seguida, escolha a opção "Cadastrar Produto".
 
 
-Funcionalidade 3 - Página de Metas (Cadastro)
+### Funcionalidade 3 - Página de Metas (Cadastro)
 Permite a inclusão, leitura, alteração e exclusão de metas para o sistema.
 
 Estrutura de dados: Metas (Cadastro)
@@ -305,7 +305,7 @@ Insira as informações da meta nos campos correspondentes.
 Em seguida, escolha a opção "Adicionar Metas".
 
 
-Funcionalidade 4 - Página de Metas (Pesquisa e Filtro)
+### Funcionalidade 4 - Página de Metas (Pesquisa e Filtro)
 Permite a pesquisa por nome e a filtragem por categoria para o sistema na página de metas.
 
 Estrutura de dados: Metas (Pesquisa)
@@ -321,7 +321,7 @@ Explore as opções disponíveis para filtragem, como categorias, datas ou outro
 Ao selecionar uma ou mais opções de filtragem, os resultados correspondentes serão exibidos rapidamente, permitindo que você encontre o que procura com facilidade.
 
 
-Funcionalidade 5 - Notificações
+### Funcionalidade 5 - Notificações
 Permite a visualização de notificações no sistema.
 
 Estrutura de dados: Notificações
@@ -332,7 +332,7 @@ Clique no botão "sino".
 As notificações serão exibidas, mostrando informações relevantes ou atualizações recentes.
 
 
-Funcionalidade 6 - Página de Educação Financeira (Filtro e Pesquisa)
+### Funcionalidade 6 - Página de Educação Financeira (Filtro e Pesquisa)
 Permite a pesquisa por nome e a filtragem por tema e tipo para o sistema na página de educação.
 
 Estrutura de dados: Educação Financeira (Filtro)
