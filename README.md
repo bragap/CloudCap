@@ -29,3 +29,4 @@ O principal objetivo é nortear as decisões da empresa para viabilizar o fortal
 
 ## Link de acesso ao CloudCap:
 https://replit.com/@PedroHenriq2075/Teste
+Ao utilizar "/doc" na url, é possivel acessar às documentações do projeto.
