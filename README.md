@@ -1,5 +1,5 @@
 # Link de acesso ao CloudCap:
-[https://replit.com/@PedroHenriq2075/Teste ](https://teste.pedrohenriq2075.repl.co/)
+https://teste.pedrohenriq2075.repl.co/
 
 ## Ao utilizar "/doc" na url, é possivel acessar às documentações do projeto.
 
