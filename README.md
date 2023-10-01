@@ -1,3 +1,6 @@
+![image](https://github.com/bragap/cloudcap/assets/130567453/529a0261-e344-4394-b024-02af92f467f3)
+
+
 # Link de acesso ao CloudCap:
 https://teste.pedrohenriq2075.repl.co/
 
