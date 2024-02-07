@@ -1,30 +1,27 @@
 cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: 
+message: Suas finanças decolam rumo ao futuro.
+title: CloudCap
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Braga de Castro
+    given-names: Pedro Henrique
+  - family-names: Prudêncio Santos
+    given-names: Talisson Augusto
+  - family-names: Ferreira Vieira
+    given-names: Sabrina
+  - family-names: Lima Signoretti
+    given-names: Christian Nathan
+  - family-names: Pinheiro de Vasconcelos
+    given-names: João Victor
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vieira Carneiro
+    given-names: Rommel
 keywords:
-  - 
-  - 
+  - fincanças
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
